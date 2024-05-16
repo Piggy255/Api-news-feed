@@ -1,0 +1,49 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    scrollbar-width: none;
+}
+
+#articles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.card{
+    width: 400px;
+    height: 350px;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+}
+
+.title{
+    font-size: 25px;
+    height: 90px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.thumbnail{
+    height: 210px;
+    width: auto;
+}
+
+.source{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.source img{
+    margin-right: 10px;
+height: 30px;
+width: auto;
+}
